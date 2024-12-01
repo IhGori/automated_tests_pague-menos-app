@@ -1,4 +1,14 @@
-Testes automatizados para disciplina de testes Automatizados para aplicativos
+Testes automatizados para disciplina de **Testes Automatizados para Aplicativos**
+
+A princíprio foi aplicado dois cenários de testes para cada um com duas funcionalidades diferentes:
+
+1 - Cenário 1 (Seção de Categorias)
+  - Navegação entre as subseções
+  - Selecionar um produto dinamicamente da subseção escolhida
+
+2 - Cenario 2 (Pesquisa por produtos)
+  - Buscar por produto inexistente
+  - Buscar por produto existente
 
 # Repositório de Testes Automatizados com Selenium, Python e Appium
 
