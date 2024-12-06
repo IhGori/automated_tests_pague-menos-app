@@ -1,8 +1,6 @@
 from pages.searchPage import SearchPage
-from faker import Faker
 
 class TesteSearch:
-	faker = Faker("pt_BR")
 	
 	def test_search_for_a_product_that_does_not_exist(self, driver):
 		search_p = SearchPage(driver)
@@ -26,3 +24,4 @@ class TesteSearch:
 		items = search_p.get_list_products()
 
 		assert len(items) > 0, f"Erro ao pesquisar por “{product}”"
+

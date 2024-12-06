@@ -7,8 +7,8 @@ def driver():
 	options = AppiumOptions()
 	options.load_capabilities({
 		"platformName": "Android",
-		"appium:platformVersion": "13",
-		"appium:deviceName": "emulator-5554",
+		"appium:platformVersion": "12",
+		"appium:deviceName": "0075513132",
 		"appium:automationName": "UIAutomator2",
 		"appium:ensureWebviewsHavePages": True,
 		"appium:nativeWebScreenshot": True,

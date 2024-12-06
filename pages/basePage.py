@@ -16,13 +16,13 @@ class BasePage:
 		).send_keys(text)
 		
 	def get_element(self, locator_type, locator_value):
-		element = WebDriverWait(self.driver, 10).until(
+		element = WebDriverWait(self.driver, 20).until(
 			EC.presence_of_element_located((locator_type, locator_value))
 		)
 		return element
 
 	def get_elements(self, locator_type, locator_value):
-		elements = WebDriverWait(self.driver, 10).until(
+		elements = WebDriverWait(self.driver, 20).until(
 			EC.presence_of_all_elements_located((locator_type, locator_value))
 		)
 		return elements
