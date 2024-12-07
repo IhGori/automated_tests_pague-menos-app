@@ -1,6 +1,6 @@
 Testes automatizados para disciplina de **Testes Automatizados para Aplicativos**
 
-A princíprio foi aplicado dois cenários de testes para cada um com duas funcionalidades diferentes:
+A princíprio foi aplicado dois cenários de testes:
 
 1 - Cenário 1 (Seção de Categorias)
   - Navegação entre as subseções
@@ -9,6 +9,9 @@ A princíprio foi aplicado dois cenários de testes para cada um com duas funcio
 2 - Cenario 2 (Pesquisa por produtos)
   - Buscar por produto inexistente
   - Buscar por produto existente
+  - Buscar e ordenar pelo maior preço
+
+Obs: É necessário no conftest informar o nome do dispositivo e a versão do android do mesmo.
 
 # Repositório de Testes Automatizados com Selenium, Python e Appium
 
