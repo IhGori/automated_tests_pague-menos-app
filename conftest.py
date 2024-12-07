@@ -2,13 +2,13 @@ import pytest
 from appium import webdriver
 from appium.options.common.base import AppiumOptions
 
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="module")
 def driver():
 	options = AppiumOptions()
 	options.load_capabilities({
 		"platformName": "Android",
-		"appium:platformVersion": "12",
-		"appium:deviceName": "0075513132",
+		"appium:platformVersion": "<android_version>",
+		"appium:deviceName": "<device_name>",
 		"appium:automationName": "UIAutomator2",
 		"appium:ensureWebviewsHavePages": True,
 		"appium:nativeWebScreenshot": True,

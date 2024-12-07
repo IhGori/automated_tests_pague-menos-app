@@ -30,6 +30,4 @@ class TestCategory:
 
 		title_page_product = category_p.get_title(AppiumBy.XPATH, self.TITLE_PAGE_PRODUCT)
 		assert title_page_product.text == 'Produto', "Não acessou a página do produto selecionado"
-		
-		category_p.return_page()
 

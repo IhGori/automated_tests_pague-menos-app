@@ -7,7 +7,7 @@ class BasePage:
 
 	def click(self, locator_type, locator_value):
 		WebDriverWait(self.driver, 10).until(
-			EC.element_to_be_clickable((locator_type, locator_value))
+			EC.presence_of_element_located((locator_type, locator_value))
 		).click()
 
 	def send_keys(self, locator_type, locator_value, text):
